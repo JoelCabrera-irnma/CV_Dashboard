@@ -43,7 +43,7 @@ const Sidebar = ({ handleButtonClick }) => {
             alt=""
             className="ico4"
           />
-          History
+          Skills
         </a>
         <a href="#" onClick={() => handleButtonClick(4)}>
           <img
@@ -51,7 +51,7 @@ const Sidebar = ({ handleButtonClick }) => {
             alt=""
             className="ico5"
           />
-          Tasks
+          Courses
         </a>
         <a href="#" onClick={() => handleButtonClick(5)}>
           <img
