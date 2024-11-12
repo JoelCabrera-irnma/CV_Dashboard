@@ -1,5 +1,7 @@
 import ListSquares from '../comp/mapSquare.jsx'
 import Profile from '../comp/Profile.jsx'
+import Skills from '../comp/ListSkills.jsx'
+
  
 // Renderizado condicional del componente en Main
 export const renderComponent = (count) => {
@@ -9,7 +11,9 @@ export const renderComponent = (count) => {
       case 1:
         return <Profile/>;
       case 2:
-        return <ListSquares/>
+        return <ListSquares/>;
+      case 3:
+        return <Skills/>
       default:
         return 
     }
