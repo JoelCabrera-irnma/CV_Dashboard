@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import { renderComponent, replaceClassInMain } from './scripts/utils.jsx';
 import Head from "./comp/Head.jsx"
-import Sidebar from './comp/SideBar.jsx'
+import Sidebar from './comp/SideBar.jsx';
+
 
  
 function App() {
@@ -92,6 +93,7 @@ function App() {
             </div>
           </div>
         </div>
+        {/* <Tier/> */}
       </div>
     </>
   );

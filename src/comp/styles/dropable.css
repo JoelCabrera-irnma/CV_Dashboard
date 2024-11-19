@@ -1,0 +1,15 @@
+.boxTierList {
+    border: 1px solid green;
+    height: 60px;
+    background-color: #eeeee4;
+    display: flex;
+    place-items: center; /* Corregido a la propiedad correcta */
+    gap: 10px;
+  }
+
+.text-tier{
+    padding: 10px;
+    border-right: 2px solid black;
+    font-size: larger;
+}
+  
