@@ -72,7 +72,7 @@ const DragDropContainer = () => {
   const renderDraggableItem = (iconName, index) => (
     <Draggable key={`draggable-${iconName}`} id={iconName}>
       <img
-        src={`/src/assets/skills/${iconName}`}
+        src={`/assets/skills/${iconName}`}
         alt={`Skill icon ${index + 1}`}
         style={{ width: `${ICON_SIZE}px`, height: `${ICON_SIZE}px` }}
         loading="lazy"

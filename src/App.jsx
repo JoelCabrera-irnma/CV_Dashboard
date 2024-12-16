@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { renderComponent, replaceClassInMain } from './scripts/utils.jsx';
+import { RenderComponent, Title, replaceClassInMain } from './scripts/utils.jsx';
 import Head from "./comp/Head.jsx"
 import Sidebar from './comp/SideBar.jsx';
 
@@ -13,7 +13,6 @@ function App() {
   const handleButtonClick = (component) => {
     setCount(component);
     replaceClassInMain(component);
-
   };
  
   return (
@@ -23,9 +22,9 @@ function App() {
         <Sidebar handleButtonClick={handleButtonClick}/>
         <div className="main">
           <div className="port">
-            <h3 className="titlePort">Mis Proyectos</h3>
+            <Title value={count}/>
             <div id="main__content">
-              {renderComponent(count)}
+              <RenderComponent count={count}/>
             </div>
           </div>
           <div className="anuncios">
@@ -52,7 +51,7 @@ function App() {
             <div className="contenTrend">
               <a className="red" href="https://github.com/">
                 <img
-                  src="src/assets/icons/Reds/2890581_ai_artificial intelligence_electronics_light bulb_robotics_icon.svg"
+                  src="/assets/icons/Reds/2890581_ai_artificial intelligence_electronics_light bulb_robotics_icon.svg"
                   alt=""
                 />
                 <div className="textRed">
@@ -62,7 +61,7 @@ function App() {
               </a>
               <a className="red">
                 <img
-                  src="src/assets/icons/Reds/3838998_bitcoin_cryptocurrency_currency_money_finance_icon.svg"
+                  src="/assets/icons/Reds/3838998_bitcoin_cryptocurrency_currency_money_finance_icon.svg"
                   alt=""
                 />
                 <div className="textRed">
@@ -72,7 +71,7 @@ function App() {
               </a>
               <a className="red">
                 <img
-                  src="src/assets/icons/Reds/416398_exploration_fuel_nasa_rocket_space_icon.svg"
+                  src="/assets/icons/Reds/416398_exploration_fuel_nasa_rocket_space_icon.svg"
                   alt=""
                 />
                 <div className="textRed">
@@ -82,7 +81,7 @@ function App() {
               </a>
               <a className="red">
                 <img
-                  src="src/assets/icons/Reds/6971159_green_ecology_environment_icon.svg"
+                  src="/assets/icons/Reds/6971159_green_ecology_environment_icon.svg"
                   alt=""
                 />
                 <div className="textRed">

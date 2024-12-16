@@ -5,7 +5,7 @@ const Sidebar = ({ handleButtonClick }) => {
       <div className="sideTop">
         <a href="#">
           <img
-            src="src/assets/icons/Sidebar/dashboard_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/dashboard_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="dash"
           />
@@ -15,7 +15,7 @@ const Sidebar = ({ handleButtonClick }) => {
       <div className="sideElements1">
         <a href="#" onClick={() => handleButtonClick(0)}>
           <img
-            src="src/assets/icons/Sidebar/home_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/home_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico1"
           />
@@ -23,7 +23,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#" onClick={() => handleButtonClick(1)}>
           <img
-            src="src/assets/icons/Sidebar/person_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/person_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico2"
           />
@@ -31,7 +31,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#" onClick={() => handleButtonClick(2)}>
           <img
-            src="src/assets/icons/Sidebar/mode_comment_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/mode_comment_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico3"
           />
@@ -39,7 +39,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#" onClick={() => handleButtonClick(3)}>
           <img
-            src="src/assets/icons/Sidebar/history_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/history_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico4"
           />
@@ -47,7 +47,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#" onClick={() => handleButtonClick(4)}>
           <img
-            src="src/assets/icons/Sidebar/task_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/task_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico5"
           />
@@ -55,7 +55,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#" onClick={() => handleButtonClick(5)}>
           <img
-            src="src/assets/icons/Sidebar/groups_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/groups_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="ico6"
           />
@@ -65,7 +65,7 @@ const Sidebar = ({ handleButtonClick }) => {
       <div className="sideElements2">
         <a href="#">
           <img
-            src="src/assets/icons/Sidebar/settings_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/settings_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="icoBottom1"
           />
@@ -73,7 +73,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#">
           <img
-            src="src/assets/icons/Sidebar/help_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/help_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="icoBottom2"
           />
@@ -81,7 +81,7 @@ const Sidebar = ({ handleButtonClick }) => {
         </a>
         <a href="#">
           <img
-            src="src/assets/icons/Sidebar/verified_user_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/assets/icons/Sidebar/verified_user_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
             className="icoBottom3"
           />
