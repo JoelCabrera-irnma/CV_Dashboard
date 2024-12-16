@@ -6,9 +6,9 @@ const Header = () => {
       <div className="row1">
         <a href="#">
           <img
-            src="src/assets/icons/Others/search_FILL0_wght400_GRAD0_opsz24.svg"
             alt="barra busqueda"
             className="lupa"
+            src="/assets/icons/Others/search_FILL0_wght400_GRAD0_opsz24.svg"
           />
         </a>
         <input type="search" />
@@ -17,14 +17,14 @@ const Header = () => {
           <a href="#">
             <img
               className="campana"
-              src="src/assets/icons/Others/notifications_active_FILL0_wght400_GRAD0_opsz24.svg"
+              src="/assets/icons/Others/notifications_active_FILL0_wght400_GRAD0_opsz24.svg"
               alt="notification"
             />
           </a>
           <a href="#">
             <img
               className="cat"
-              src="src/assets/icons/Reds/7345910_black cat_pet_cat_animal_feline_icon.svg"
+              src="/assets/icons/Reds/7345910_black cat_pet_cat_animal_feline_icon.svg"
               alt="web icon main"
             />
           </a>
@@ -34,7 +34,7 @@ const Header = () => {
       <div className="row2">
         <a className="heroUser" href="">
           <img
-            src="src/assets/icons/Reds/7345910_black cat_pet_cat_animal_feline_icon.svg"
+            src="/assets/icons/Reds/7345910_black cat_pet_cat_animal_feline_icon.svg"
             alt=""
             className="catBig"
           />
