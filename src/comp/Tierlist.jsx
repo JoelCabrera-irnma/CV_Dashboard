@@ -18,7 +18,7 @@ const DragDropContainer = () => {
   useEffect(() => {
     const loadIcons = async () => {
       try {
-        const response = await fetch("/src/iconList.json");
+        const response = await fetch("/iconList.json");
         if (!response.ok) {
           throw new Error("Error al cargar los iconos");
         }
