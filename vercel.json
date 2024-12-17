@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://ka-f.fontawesome.com https://vercel.live; img-src 'self' https://cdn.example.com https://ka-f.fontawesome.com; style-src 'self' 'unsafe-inline' https://ka-f.fontawesome.com"
+          "value": "script-src 'self' 'unsafe-eval' https://kit.fontawesome.com https://ka-f.fontawesome.com https://vercel.live; img-src 'self' https://cdn.example.com https://ka-f.fontawesome.com; style-src 'self' 'unsafe-inline' https://ka-f.fontawesome.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
         }
       ]
     }
